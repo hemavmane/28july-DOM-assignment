@@ -7,7 +7,21 @@ document.querySelectorAll(".divs")[1].style.border="black solid"
 document.querySelectorAll(".divs")[1].innerText="Fifth"
 document.querySelectorAll(".divs")[2].style.border="black solid"
 document.querySelectorAll(".divs")[2].innerText="Sixth"
-document.querySelector("#id1").appendChild("a").innerText
-document.querySelector("div")[7]
+let createElement = document.createElement("span");
+let  textnod = document.createTextNode("Aircampus");
+createElement.appendChild(textnod);
+document.getElementById("id1").appendChild(createElement);
+document.querySelectorAll("div")[8].innerHTML= "<div class='new_htlm'><p>This is my first assignment</p> </div> "
+document.querySelectorAll("div")[10].innerText="My Experience with Aircampus"
+document.querySelectorAll("div")[10].style.textDecoration="underline"
+document.querySelectorAll("div")[10].style.fontWeight="bold"
+document.querySelectorAll("div")[10].style.fontSize="32px"
+document.querySelectorAll("div")[10].style.color="darkgreen"
+document.querySelectorAll("p")[1].innerText="Aircampus made me think how we can apply logics in problem solving as well helped a lot in communication "
+
+
+
+
+
 
 
